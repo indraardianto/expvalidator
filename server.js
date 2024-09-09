@@ -7,7 +7,6 @@ const PORT = 3002;
 
 app.use(express.json());
 app.set('view engine', 'ejs');
-
 //pattern
 const v1 = '/api/v1';
 
