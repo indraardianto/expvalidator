@@ -25,6 +25,7 @@ const validate = [
             })
         })
 ]
+
 const createCategories = (req, res) => {
     const { name, description } = req.body;
     const errors = validationResult(req);
